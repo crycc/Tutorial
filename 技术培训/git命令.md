@@ -2,6 +2,8 @@
 ###git本地配置：
 ####        git config user.name "用户名" --global
 ####        git config user.email "邮箱"  --global
+####        ssh-keygen -t rsa -C "xxx@xxx.com" 
+####        验证是否成功：ssh -T git@github.com
 配置全局的用户名和邮箱，后续提交操作会显示备注信息，跟踪谁是提交和修改者
 global应用于当前用户，local作用于某一个仓库，system作用于电脑所有用户
 ####git config --list --local(查看当前作用域配置项)
